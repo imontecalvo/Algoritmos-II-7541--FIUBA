@@ -1,4 +1,4 @@
-# Algoritmos-II-7541--FIUBA
+# Algoritmos II [75.41] FIUBA
 
 #### Se encuentran los trabajos prácticos realizados en Algoritmos II Curso Méndez 2C2020.
 
