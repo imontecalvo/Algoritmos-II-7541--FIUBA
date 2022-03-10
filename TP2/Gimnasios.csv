@@ -1,0 +1,72 @@
+G;Ciudad Plateada;5;1
+L;Brock
+P;Seadra;20;9;54
+P;Politoed;70;33;34
+P;Cloyster;56;79;31
+P;Seaking;68;39;57
+E;Kukui
+P;Kingler;75;60;29
+P;Totodile;43;10;50
+P;Horsea;60;8;19
+E;Chris
+P;Joltik;65;1;94
+P;Seadra;85;25;25
+P;Tapu Fini;85;21;75
+P;Mudkip;40;8;32
+P;Lombre;50;32;12
+G;Ciudad Celeste;3;2
+L;Misty
+P;Squirtle;20;9;89
+P;Politoed;70;33;46
+P;Slowking;56;79;31
+P;Seaking;68;39;3
+E;Mayla
+P;Arceus;120;320;432
+P;Wailmer;60;130;12
+P;Remoraid;65;12;87
+P;Quagsire;35;75;397
+G;Ciudad Azulona;12;3
+L;Erika
+P;Krabby;50;6;23
+P;Bibarel;71;31;195
+P;Milotic;81;162;432
+P;Wailord;60;398;232
+E;Rika
+P;Starmie;115;80;231
+P;Corsola;35;5;76
+E;Denio
+P;Tapu Fini;85;21;75
+P;Mudkip;40;8;32
+P;Slowking;56;79;31
+G;Ciudad Fucsia;23;4
+L;Koga
+P;Kingler;75;60;45
+P;Totodile;43;10;78
+P;Horsea;60;8;1
+E;Samina
+P;Wailmer;60;130;12
+P;Remoraid;65;12;87
+E;Kahili
+P;Poliwhirl;20;20;10
+P;Crawdaunt;55;33;23
+P;Pyukumuku;5;1;0
+G;Ciudad Malva;7;5
+L;Pegaso
+P;Totodile;43;10;50
+P;Horsea;60;8;19
+P;Mudkip;40;8;32
+P;Lombre;50;32;12
+E;Lylia
+P;Remoraid;65;12;123
+P;Quagsire;35;75;209
+E;Mayla
+P;Kingler;75;60;45
+P;Totodile;43;10;78
+P;Corsola;35;5;76
+E;Dianta
+P;Remoraid;65;12;87
+P;Starmie;115;80;231
+E;Lino
+P;Seel;45;90;64
+P;Octillery;45;28;23
+P;Basculin;98;18;12
