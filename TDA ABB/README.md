@@ -72,24 +72,24 @@ Por otro lado, un árbol binario es un árbol con una particularidad adicional. 
 
 Un posible esquema de un árbol binario podría ser algo como lo siguiente:
 
-			   												╔════╗ 
-			   												║ A  ║ <--- RAIZ
-			   												╚════╝
-			   								   _______________/\_______________
-			   								  /								   \
-			   								╔════╗ 							 ╔════╗ 
-			   								║ B  ║							 ║ C  ║
-			   								╚════╝							 ╚════╝
-			   							 _____/\_____ 				      _____/\_____
-			   							/			 \					 /			  \
-			   						 ╔════╗ 	    ╔════╗			 ╔════╗ 	    ╔════╗	
-			   						 ║ D  ║	 		║ E  ║			 ║ F  ║	 		║ G  ║
-			   						 ╚════╝	 		╚════╝			 ╚════╝	 		╚════╝
-			   						 					\__
-			   						 					   \
-			   						 					 ╔════╗
-			   						 					 ║ H  ║
-			   						 					 ╚════╝
+					     ╔════╗ 
+					     ║ A  ║ <--- RAIZ
+					     ╚════╝
+			  ____________________/\_____________________
+			/					      \
+		     ╔════╗					    ╔════╗ 
+		     ║ B  ║					    ║ C  ║
+   		     ╚════╝					    ╚════╝
+	    __________/\__________ 			     _________/\__________
+	  /   			   \			    /		          \
+	╔════╗ 	    		╔════╗			 ╔════╗			╔════╗	
+	║ D  ║	 		║ E  ║			 ║ F  ║	 		║ G  ║
+	╚════╝	 		╚════╝			 ╚════╝	 		╚════╝
+										    \__
+										        \
+											╔════╗
+											║ H  ║
+											╚════╝
 
 Una vez en claro estos dos conceptos, ya podemos abordar el de árbol binario de búsqueda. Un ABB, evidentemente cumple con las condiciones de árbol y de árbol binario mencionadas anteriormente, pero además tiene una característica fundamental que nos permite explotar su utilidad. Dicha propiedad es la existencia de una relación de orden entre los elementos según su posición (derecha o izquierda) respecto de su padre. Es decir, se hace uso de la noción derecha/izquierda proporcionada por el árbol binario distribuyendo los elementos de manera tal que los que sean menores a su padre van a la izquierda y los que sean mayores a su padre van a la derecha.
 			   
