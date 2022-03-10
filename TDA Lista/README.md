@@ -66,21 +66,20 @@ las que podemos utilizar dicho tipo de dato, en el caso de la lista son:
 
 Esto último depende de que tipo de lista se trate: simplemente enlazada o doblemente enlazada. La simplemente enlazada cada elemento tiene un "lazo simple", es decir, tiene un puntero sólo al elemento siguiente, de manera tal que es unidireccional y nos permite recorrer la lista de inicio a fin. Seria algo asi...
 
-				  ╔══════════╦═══╗		   ╔══════════╦═══╗		   ╔══════════╦═══╗  null
-				  ║ elemento ║ ⬤---------> ║ elemento ║ ⬤--------->║ elemento ║ ⬤--------->
-				  ║		1	 ║   ║		   ║	 2	  ║   ║		   ║	3	  ║   ║
- 				  ╚══════════╩═══╝		   ╚══════════╩═══╝		   ╚══════════╩═══╝
- 				  	Posición #0				  Posición #1			  Posición #2
+	╔══════════╦═══╗           ╔══════════╦═══╗           ╔══════════╦═══╗  null
+	║ elemento ║ ⬤--------->  ║ elemento ║ ⬤--------->  ║ elemento ║ ⬤--------->
+	║	  1    ║           ║	 2    ║	  ║           ║	   3	 ║   ║
+	╚══════════╩═══╝           ╚══════════╩═══╝           ╚══════════╩═══╝
+	  Posición #0		      Posición #1		Posición #2
  				  
 
 Por otro lado, la doblemente enlazada, como su nombre lo indica, utiliza un "doble lazo", lo cual significa que cada elemento posee un puntero al elemento siguiente pero también al elemento anterior, de manera tal que ahora se vuelve bidireccional, permitiéndonos recorrer la lista de inicio a fin y regresar de fin a inicio, es decir, podemos volver hacia atrás. El esquema es muy similar: 
 
- 				  ╔═══╦══════════╦═══╗		   ╔═══╦══════════╦═══╗			╔═══╦══════════╦═══╗  null
-		     null ║   ║ elemento ║ ⬤---------> ║   ║ elemento ║ ⬤--------->	║   ║ elemento ║ ⬤--------->
-	      <---------⬤ ║		1	 ║   ║ <---------⬤ ║	2	  ║   ║ <---------⬤ ║	 3	   ║   ║
- 				  ╚═══╩══════════╩═══╝		   ╚═══╩══════════╩═══╝			╚═══╩══════════╩═══╝
- 				      Posición #0				   Posición #1			         Posición #2
- 				  
+ 		 ╔═══╦══════════╦═══╗	       ╔═══╦══════════╦═══╗	    ╔═══╦══════════╦═══╗  null
+	   null  ║   ║ elemento ║ ⬤---------> ║   ║ elemento ║ ⬤--------->║   ║ elemento ║ ⬤--------->
+	<---------⬤ ║	  1    ║   ║ <---------⬤ ║     2    ║   ║ <--------⬤ ║	  3	║   ║
+ 		 ╚═══╩══════════╩═══╝	       ╚═══╩══════════╩═══╝	    ╚═══╩══════════╩═══╝
+ 		      Posición #0                   Posición #1                 Posición #2
  				  
 Por último, es necesario destacar que existen las listas circulares, las cuales se caracterizan principalmente por el hecho de que el puntero del último elemento apunte al primer elemento de la lista, estas también pueden ser simplemente enlazadas o doblemente enlazadas.
 
